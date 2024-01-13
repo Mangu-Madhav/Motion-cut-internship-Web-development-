@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="e-commercecss.css">
+    <title>Product Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>IQOO NEO-6 5G mobile</h1>
+    </header>   
+
+    <main>
+        <div id="product-image">
+            <img src="https://www.91-img.com/gallery_images_uploads/9/c/9c5db85358658fb54fedf264443e8f556ea85348.JPG?tr=h-550,w-0,c-at_max" alt="Product Image">
+            <div id="but">
+                <a href="https://www.91mobiles.com/iqoo-neo-6-5g-price-in-india?ty=gallery">get more info </a>
+    
+            </div>
+        </div>
+        
+        <div id="product-info">
+            <p>Check out the iQOO Neo 6 5G's images, UI screenshots, videos and more in this page. With pictures of the iQOO Neo 6 5G, you can get a better look at the phone's design along with enjoying its 360-degree view. There are screenshots as well which lets you see the iQOO Neo 6 5G wallpaper that comes out of the box as well as the preloaded apps. And with the iQOO Neo 6 5G camera samples, you can get an idea of its picture quality</p>
+            <p>Price: Rs.25,000/-</p>
+            <button id="buy-button">Buy Now</button>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script >
+        document.getElementById('buy-button').addEventListener('click', function() {
+            alert('Thank you for your purchase!');
+        });
+        
+    </script>
+</body>
+</html>
