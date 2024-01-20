@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8bebe;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #294690;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-task {
+    margin-top: 30px;
+    display: flex;
+}
+
+input {
+    flex-grow: 2;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #0d0e0d;
+    color: #fff;
+    border:#f40505;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #484847;
+}
